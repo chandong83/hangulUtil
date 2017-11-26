@@ -8,7 +8,7 @@ Python utilities for Hangul
 ==
 
 
-## 한글 확인
+### 한글 확인
 
 
 #### code
@@ -43,7 +43,9 @@ JustAlphabet
 it is not korean
 </pre>
 
-## 숫자 문자를 한글로 바꾸기
+
+
+### 숫자 문자를 한글로 바꾸기
 
 #### code
 <pre>
