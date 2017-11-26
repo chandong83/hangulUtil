@@ -8,8 +8,7 @@ Python utilities for Hangul
 ==
 
 
-한글 확인
---
+## 한글 확인
 
 
 #### code
@@ -42,4 +41,39 @@ it is korean
 
 JustAlphabet
 it is not korean
+</pre>
+
+## 숫자 문자를 한글로 바꾸기
+
+#### code
+<pre>
+<code>
+import hangulUtil as han
+
+
+txt = ['1234',
+         '190.20',
+         '100000.0']
+
+for t in txt:
+    print(t)
+    print('to')
+    print(han.digit2txt(t))
+
+</code>
+</pre>
+
+
+#### output
+
+<pre>
+1234
+to
+천이백삼십사
+190.20
+to
+백구십쩜 이
+100000.0
+to
+십만
 </pre>
